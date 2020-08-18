@@ -62,16 +62,29 @@ main section img {
   height: 15rem;
 }
 
+.tag{
+  margin: 0rem 2rem;
+  max-width: 80rem;
+  text-align: center;
+}
+
+.tag-main{
+  background: white;
+  margin:0.4rem 0rem;
+  padding: 0.1rem 0.1rem;
+  font-size: 1.7rem;
+}
+
 /* GRAD ANIMATION */
 
 .grad-ani {
   background: linear-gradient(222deg, #d16ba5, #6d8fce, #3dd5cc);
   background-size: 600% 600%;
 
-  -webkit-animation: AnimationName 2s ease infinite;
-  -moz-animation: AnimationName 2s ease infinite;
-  -o-animation: AnimationName 2s ease infinite;
-  animation: AnimationName 2s ease infinite;
+  -webkit-animation: AnimationName 1300ms ease infinite;
+  -moz-animation: AnimationName 1300ms ease infinite;
+  -o-animation: AnimationName 1300ms ease infinite;
+  animation: AnimationName 1300ms ease infinite;
 }
 
 .grad-ani-text {
@@ -81,10 +94,10 @@ main section img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  -webkit-animation: AnimationName 2s ease infinite;
-  -moz-animation: AnimationName 2s ease infinite;
-  -o-animation: AnimationName 2s ease infinite;
-  animation: AnimationName 2s ease infinite;
+  -webkit-animation: AnimationName 1300ms ease infinite;
+  -moz-animation: AnimationName 1300ms ease infinite;
+  -o-animation: AnimationName 1300ms ease infinite;
+  animation: AnimationName 1300ms ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
